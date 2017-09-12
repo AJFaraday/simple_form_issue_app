@@ -1,0 +1,18 @@
+<h1>DOOHICKEYS!</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @doohickeys.each do |doohickey| %>
+      <tr>
+        <td><%= doohickey.id %></td>
+        <td><%= doohickey.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
